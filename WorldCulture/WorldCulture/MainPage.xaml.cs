@@ -23,7 +23,7 @@ namespace WorldCulture
         public List<MasterMenu> GetMenuItems()
         {
             var list = new List<MasterMenu>();
-            list.Add(new MasterMenu() 
+            list.Add(new MasterMenu()
             { 
                 Text = "Native Americans",
                 Detail = "Native American culture test",
@@ -31,6 +31,29 @@ namespace WorldCulture
                 TargetPage = typeof(Views.America)
             });
 
+            list.Add(new MasterMenu()
+            {
+                Text = "Japan",
+                Detail = "Japan Culture",
+                ImagePath = "japan.jpg",
+                TargetPage = typeof(Views.Japan)
+            });
+
+            list.Add(new MasterMenu()
+            {
+                Text = "China",
+                Detail = "China Culture",
+                ImagePath = "china.jpg",
+                TargetPage = typeof(Views.China)
+            });
+
+            list.Add(new MasterMenu()
+            {
+                Text = "Brazil",
+                Detail = "Brazil Culture",
+                ImagePath = "brazil.jpg",
+                TargetPage = typeof(Views.Brazil)
+            });
 
             return list;
         }
