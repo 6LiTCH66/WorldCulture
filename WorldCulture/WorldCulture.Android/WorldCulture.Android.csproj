@@ -68,6 +68,12 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\German.jpg" />
+    <AndroidResource Include="Resources\drawable\Irish.jpg" />
+    <AndroidResource Include="Resources\drawable\Italy.jpg" />
+    <AndroidResource Include="Resources\drawable\Norwegian.jpg" />
+    <AndroidResource Include="Resources\drawable\russia.jpg" />
+    <AndroidResource Include="Resources\drawable\spain.jpg" />
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
     <AndroidResource Include="Resources\layout\Toolbar.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />

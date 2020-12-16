@@ -54,6 +54,49 @@ namespace WorldCulture
                 ImagePath = "brazil.jpg",
                 TargetPage = typeof(Views.Brazil)
             });
+            
+            list.Add(new MasterMenu()
+            {
+                Text = "Russia",
+                Detail = "Russia Culture",
+                ImagePath = "russia.jpg",
+                TargetPage = typeof(Views.Russia)
+            });
+            list.Add(new MasterMenu()
+            {
+                Text = "Ireland",
+                Detail = "Irish Culture",
+                ImagePath = "Irish.jpg",
+                TargetPage = typeof(Views.Ireland)
+            });
+            list.Add(new MasterMenu()
+            {
+                Text = "Norwegian",
+                Detail = "Norwegian Culture",
+                ImagePath = "Norwegian.jpg",
+                TargetPage = typeof(Views.Norwegian)
+            });
+            list.Add(new MasterMenu()
+            {
+                Text = "German",
+                Detail = "German Culture",
+                ImagePath = "German.jpg",
+                TargetPage = typeof(Views.German)
+            });
+            list.Add(new MasterMenu()
+            {
+                Text = "Italy",
+                Detail = "Italy Culture",
+                ImagePath = "Italy.jpg",
+                TargetPage = typeof(Views.Italy)
+            });
+            list.Add(new MasterMenu()
+            {
+                Text = "Spain",
+                Detail = "Spanish Culture",
+                ImagePath = "spain.jpg",
+                TargetPage = typeof(Views.Spain)
+            });
 
             return list;
         }
